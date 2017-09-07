@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+cd $(dirname "${BASH_SOURCE[0]}")
+
+composer validate
+git add .
+git commit -m 'primo commit'
+git push -u origin master
+
+set -x
+ctd
+composer req rino1/test
+ls
