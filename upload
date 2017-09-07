@@ -11,6 +11,8 @@ echo sc0gli0
 git push -u origin master
 
 set -x
-ctd
+
+dir=$(mktemp -d)
+cd $dir
 composer req rino1/test
-ls
+ls -l $dir
