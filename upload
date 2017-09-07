@@ -7,6 +7,7 @@ cd $(dirname "${BASH_SOURCE[0]}")
 composer validate
 git add .
 git commit -m 'primo commit'
+echo sc0gli0
 git push -u origin master
 
 set -x
