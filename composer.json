@@ -1,5 +1,5 @@
 {
     "name": "rino1/test",
-    "version": "1.0.0",
+    "minimum-stability": "dev",
     "description": "none"
 }
