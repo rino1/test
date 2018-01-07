@@ -1,6 +1,6 @@
 {
     "name": "rino1/test",
     "version": "1.0.0",
-    "minimum-stability": "deb",
+    "minimum-stability": "dev",
     "license": "proprietary"
 }
